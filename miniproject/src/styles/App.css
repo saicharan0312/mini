@@ -1,0 +1,198 @@
+body {
+  background-color: rgb(185, 185, 185);
+}
+
+.App {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input,
+textarea {
+  background-color: rgba(238, 238, 238, 0.822);
+  border: 1px solid rgb(143, 143, 143);
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 5px 5px 5px 0px;
+  padding: 5px;
+}
+
+.fa-github-square:before {
+  font-size: 40px;
+}
+
+.footer {
+  float: bottom;
+}
+
+.header {
+  font-size: 40px;
+}
+
+.Resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 8px 6px 10px 0px rgba(50, 50, 50, 0.75);
+  border-radius: 10px;
+  background-color: rgb(223, 223, 223);
+}
+
+.Resume .personal-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Resume .personal-info .name-area {
+  font-size: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.Resume .personal-info .name-area input {
+  font-size: 30px;
+}
+
+p {
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-flow: row;
+}
+
+.company,
+.city,
+.role,
+.description,
+.school,
+.gpa,
+.degree,
+.skills {
+  width: 50%;
+}
+
+.from,
+.to {
+  width: 150px;
+}
+
+.work-exp,
+.education,
+.skills-area,
+form,
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  border: 1px solid rgba(15, 16, 21, 0.4);
+  width: 100%;
+}
+
+.button,
+.save-button,
+.cancel-button,
+.mode-button,
+.delete-button,
+.edit-button {
+  width: 70px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  background-color: rgba(179, 179, 179, 0.308);
+  border-radius: 10px;
+  margin: 3px;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover,
+.save-button:hover,
+.cancel-button:hover,
+.mode-button:hover,
+.delete-button:hover,
+.edit-button:hover {
+  border: 1px solid gray;
+}
+
+.save-button,
+.edit-button {
+  background-color: rgba(84, 158, 84, 0.637);
+}
+
+.cancel-button,
+.delete-button {
+  background-color: rgba(199, 84, 84, 0.637);
+}
+
+.mode-button {
+  width: 150px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: rgb(207, 207, 207);
+  border: 1px solid black;
+}
+
+.button {
+  width: 50px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+.delete-button {
+  position: absolute;
+  right: 15px;
+  top: 0px;
+  width: 30px;
+  margin: 0px 0px 5px 5px;
+}
+
+.edit-button {
+  position: absolute;
+  right: 50px;
+  top: 0px;
+  margin: 0px 0px 5px 5px;
+}
+
+.form-output {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.description-output {
+  margin: 5px 0px 10px 25px;
+  width: 80%;
+  word-wrap: break-word;
+}
+
+.info-output {
+  word-wrap: break-word;
+  width: 80%;
+}
+
+.skills-output {
+  position: relative;
+  margin: 0px 10px 10px 10px;
+  width: 30%;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.one-skill-div {
+  width: 50%;
+  word-wrap: break-word;
+}
